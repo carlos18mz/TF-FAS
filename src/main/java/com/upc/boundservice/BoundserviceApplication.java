@@ -30,7 +30,7 @@ public class BoundserviceApplication extends SpringBootServletInitializer {
 	@RestController
 	@RequestMapping
 	public class TestController {
-
+ 
 		@GetMapping
 		public ResponseEntity<?> saludo() {
 			HashMap<String, String> datos = new HashMap<>();
