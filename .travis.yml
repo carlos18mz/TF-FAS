@@ -1,9 +1,8 @@
 language: java
 jdk: openjdk8
 before_install:
-  - chmode +x mvnw
-
+- chmod +x mvnw
 deploy:
   provider: heroku
   api_key:
-    secure: 10f8df91-a50c-4341-a48c-c52e4b3f4005
+    secure: IoZKObsY96UPe46R58F7EJNO0Uce8UPi0tEiFqMMXIMcOo84K4vRsrcqVz1mrbYAUOgKvwABnyw7ApQEg6w/sGP9+yoirJ4T1PzBujIPhKmL8F2GCZVFF6OH08m2k630FFRMytP5cKCleHpD7rXYX/uqBGkK+8BFcXlkMPOiaT8hMiP67nu8shNIEivk20skNLRoGSV7FZ6lWSYtCDF6QZLC0+wccg+RToMCWXPbr9buIXZR7mRviPH7GZOwuVuZ6TJa8AqNjqtaSegZrizKa1zLoY8g+8rFY6MkUGo/sDCa9QIrpyCbWzRaw/kcQkzsvAqrYsgr+Xs5ODr3whwmkz9sqS8Tu3Eh0ks0tmtBsfNt2d+vqpL0YhbiRZb8fqHc/PlMPtTsz1dmsv+stmBDvbNIPxC7V+hM3kAZVyH6G8b4Hx+HQLwtpKO34EkzlP76jAE0o3Ir+XKmqs+da8eOB/wGlEktpNGkYW8bH93JcbE20j3tRuelHpZz+dOCowHnI6MUssFlt1ASMLVs5Db92XT7sEaiWmXcAluYV5iz2DenCssuq+SX6FBokWLM0xDb35bNHg9hxc5sNojqotzfo0gR+5sU4QrGWdJykAKPG4NrMufawzzH3xEQdYBnSofJ2dfcxnKN47RJ3Ja1v/l58yXanjAcfA6leQ99xQK6QRQ=
